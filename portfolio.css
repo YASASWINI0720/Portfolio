@@ -1,0 +1,202 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+body{
+    background-color:#0d0d1a;
+     margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px 60px;
+    background-color: #020826;
+}
+
+
+.logo{
+    color: orange;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-item{
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.hire-btn{
+    background: orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.first{
+    height: 500px;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.f1{
+  /* background-color: chartreuse; */
+  height: 500px;
+  width: 50%;
+  margin-top: 150px;
+  color: white;
+}
+.f2{
+  /* background-color: coral; */
+  height: 400px;
+  width: 50%;
+  margin-top: 90px;
+  /* border-radius: 100%; */
+}
+.f2 img{
+  border-radius: 500px;
+}
+.f1 span{
+  color: orange;
+}
+.f1 button{
+  background-color: orange;
+  border-radius: 20px;
+  height: 50px;
+  width: 150px;
+  border: none;
+  color: black;
+}
+.second{
+  height: 200px;
+  /* background-color:crimson; */
+  justify-content: center;
+  margin-top: 200px;
+}
+.second h1{
+  color: orange;
+}
+.second p{
+  color: white;
+}
+.projects{
+  /* background-color: cornflowerblue; */
+  height: 450px;
+  display: flex;
+  text-align: center;
+}
+.projects span{
+  margin-left: 700px;
+  margin-top: 100px;
+  color: orange;
+}
+.projects section{
+  justify-content: center;
+  margin-left: 500px;
+  color: antiquewhite;
+}
+.flip{
+  height:150px;
+  background-color:white;
+  width: 300px;
+  margin-top: 150px;
+  border-radius: 50px;
+  margin-left: -400px;
+  font-weight: 200;
+  
+}
+.flip a{
+  color: orange;
+}
+.web{
+  height: 150px;
+  background-color:white;
+  width: 300px;
+  margin-top: 150px;
+  border-radius: 50px;
+  margin-right: 100px;
+  
+}
+.web a{
+  color: orange;
+}
+.project{
+display:flex;
+gap:20px;
+justify-content:center;
+margin-top:40px;
+}
+
+.skills{
+  height: 450px;
+  text-align: center;
+  padding: 80px;
+  color: orange;
+}
+ .sk1{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+margin-top:40px;
+}
+
+.sk{
+background:white;
+color:black;
+padding:40px;
+border-radius:10px;
+}
+.sk i{
+  font-size: 20px;
+}
+
+.contact{
+text-align:center;
+padding:80px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:20px;
+width:400px;
+margin:auto;
+}
+
+input, textarea{
+padding:15px;
+border:none;
+border-radius:5px;
+}
+.download-btn{
+    background: orange;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+form button{
+ background-color: orange;
+ height: 50px;
+}
+
+.nav-item:hover{
+  text-decoration: underline;
+  color: white;
+}
